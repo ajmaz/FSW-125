@@ -1,9 +1,11 @@
 
 
-const mathFunc = require('./math')
+const mathFunctions = require('./math')
+// imported mathematical functions for use with this file.
 
-console.log(mathFunc)
-console.log(mathFunc.sum(10 , 10));
-console.log(mathFunc.subtract(10 , 5));
-console.log(mathFunc.multiply(10 , 2));
-console.log(mathFunc.divide(10 , 2));
+
+console.log(mathFunctions)
+console.log(mathFunctions.sum(10, 10));
+console.log(mathFunctions.subtract(10, 5));
+console.log(mathFunctions.multiply(10, 2));
+console.log(mathFunctions.divide(10, 2));

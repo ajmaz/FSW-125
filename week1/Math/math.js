@@ -1,4 +1,4 @@
-
+//Mathematical functions for module exports
 
 function sum(a,b) {
 return(
@@ -21,8 +21,8 @@ return(
 )}
 
 module.exports = {
-sum: sum,
-subtract: subtract,
-multiply: multiply,
-divide: divide
+sum,
+subtract,
+multiply,
+divide
 }
