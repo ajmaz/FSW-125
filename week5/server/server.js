@@ -1,5 +1,5 @@
 const express = require('express')
-const teamItems = require('./Routes/teamsRouter')
+const teamItems = require('./Routes/teamRouter')
 
 const app = express()
 const PORT = 9000
